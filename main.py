@@ -1,4 +1,4 @@
-from c1 import cp2
+from cps import cp03
 
-cp2.di_hola()
-cp2.recibiendo_entradas()
+#TODO: HACER UN MENU DE NAVEGACION
+
