@@ -4,11 +4,11 @@ def formando_fechas():
     year = int(input("Introduce the year "))
 
     if day <= 0 or (0 >= month > 12) or year <= 0: #the same as in line 96 with the inequalities
-        print("valores inválidos")
+        print("invalid values")
     elif (4 < day < 15) and month == 10 and year == 1582: #(4 < day < 15) better than (day > 4 and day < 15)
-        print("fecha inválida")
+        print("invalid date")
 
-    if month%2 == 0:
+    if month % 2 == 0:
         print()
 
 def calculate_final_amount():
@@ -51,7 +51,7 @@ def atm():
     if withdrawal_amount%10 != 0:
         error = True
         print("Withdrawal amount must be a multiple of 10")
-    if error == False:
+    if not error:
         print("Remaining balance:", balance - withdrawal_amount)
 
 def triangle_type():
@@ -59,7 +59,6 @@ def triangle_type():
     b = int(input("enter side b "))
     c = int(input("enter side c "))
     right_angled = False
-    #abs(a + b) >= abs(a) + abs(b) and abs(b + c) >= abs(b) + abs(c) and abs(a) + c >= abs(c) + abs(c)
     if abs(a + b) < c and abs(b + c) < a and abs(a + c) < b:
         print("this is not a valid triangle")
     else:
@@ -77,8 +76,40 @@ def right_order():
     num2 = int(input("introduce the second number "))
     num3 = int(input("introduce the third number "))
 
-def intervals():
+    if num1 < num2 and num1 < num3:
+        if num2 < num3:
+            return num1, num2, num3
+        else:
+            return num1, num3, num2
+    if num2 < num1 and num2 < num3:
+        if num1 < num3:
+            return num2, num1, num3
+        else:
+            return num2, num3, num1
+    if num3 < num2 and num3 < num1:
+        if num2 < num1:
+            return num3, num2, num1
+        else:
+            return num3, num1, num2
 
-def the_day_after():
+def day_of_the_week():
+    day = int(input("day: "))
+    month = int(input("month: "))
+    year = int(input("year: "))
+    valid = False
 
-def a_triangle_and_a_point():
+    if month == 2:
+        if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+            valid = day > 0 and day <= 28
+    else:
+        if month <= 7:
+            if day <= 30 + month % 2 and day > 0:
+                valid = True
+        elif month <= 12:
+            if day <= 31 - (month % 2) and day > 0:
+                valid = True
+    
+    print(f"The date is {''if valid else "not"}valid")
+
+
+day_of_the_week()

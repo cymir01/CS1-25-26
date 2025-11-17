@@ -6,3 +6,6 @@ def vowel_counter():
         if char in vowels:
             count += 1
     print(count)
+
+vowel_counter()
+print('ee')

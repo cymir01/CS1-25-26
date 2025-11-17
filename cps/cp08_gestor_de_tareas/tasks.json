@@ -1,0 +1,37 @@
+{
+    "tareas": {
+        "1": {
+            "desc": "terminar la cp",
+            "estado": "pendiente"
+        },
+        "2": {
+            "desc": "dormir",
+            "estado": "pendiente"
+        },
+        "3": {
+            "desc": "hacer la cp de algebra",
+            "estado": "pendiente"
+        },
+        "4": {
+            "desc": "ser segura de mi y sobreponerme a la ansiedad de la interaccion social",
+            "estado": "pendiente"
+        },
+        "5": {
+            "desc": "arreglar bugs",
+            "estado": "pendiente"
+        },
+        "6": {
+            "desc": "describir la tarea",
+            "estado": "pendiente"
+        },
+        "7": {
+            "desc": "eee",
+            "estado": "pendiente"
+        },
+        "8": {
+            "desc": "eee",
+            "estado": "pendiente"
+        }
+    },
+    "next_id": 9
+}

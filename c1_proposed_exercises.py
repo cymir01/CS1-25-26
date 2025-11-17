@@ -13,7 +13,7 @@ def quadratic_calculator():
         x1 = (-b + (b**2 - 4*a*c)**0.5) / 2*a
         x2 = (-b - (b**2 - 4*a*c)**0.5) / 2*a
         print(f"the roots of the ecuation are: \nx1 = {x1}, x2 = {x2}")
-        
+
 
 def triangular_inequality():
     a = int(input("enter a\n"))
@@ -22,4 +22,3 @@ def triangular_inequality():
     
     triangle = a + c > c and b + c > a and a + c > b
     print(f"Puede formar un triángulo: {triangle}")
-

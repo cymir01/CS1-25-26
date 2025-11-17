@@ -1,0 +1,15 @@
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.AssemblyInfoInputs.cache
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.AssemblyInfo.cs
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.csproj.CoreCompileInputs.cache
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.sourcelink.json
+C:\network\Second-Brain\Codes\CP2\bin\Debug\net8.0\CP2.exe
+C:\network\Second-Brain\Codes\CP2\bin\Debug\net8.0\CP2.deps.json
+C:\network\Second-Brain\Codes\CP2\bin\Debug\net8.0\CP2.runtimeconfig.json
+C:\network\Second-Brain\Codes\CP2\bin\Debug\net8.0\CP2.dll
+C:\network\Second-Brain\Codes\CP2\bin\Debug\net8.0\CP2.pdb
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.dll
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\refint\CP2.dll
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.pdb
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\CP2.genruntimeconfig.cache
+C:\network\Second-Brain\Codes\CP2\obj\Debug\net8.0\ref\CP2.dll
