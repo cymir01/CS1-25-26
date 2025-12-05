@@ -14,7 +14,7 @@ while True:
     elif cmd == 'listar':
         tareas = listar_tareas() 
         if not tareas: 
-            console.print("[yellow]No hay tareas.[/yellow]") 
+            console.print("[yellow]1No hay tareas.[/yellow]") 
         else:
             table = Table(title="Lista de Tareas") 
             table.add_column("ID", style="cyan") 

@@ -31,7 +31,15 @@
         "8": {
             "desc": "eee",
             "estado": "pendiente"
+        },
+        "9": {
+            "desc": "eee",
+            "estado": "pendiente"
+        },
+        "10": {
+            "desc": "Otra tarea",
+            "estado": "pendiente"
         }
     },
-    "next_id": 9
+    "next_id": 11
 }
